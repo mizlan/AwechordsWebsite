@@ -1,59 +1,97 @@
 <!DOCTYPE HTML>
-<html class="no-js" lang="en">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta content="width=device-width,initial-scale=1.0" name="viewport">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>AweChords</title>
 
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
 	<link rel="stylesheet" href="style.css">
-
-	<script src="modernizr.js"></script>
-	<title> AweChords </title>
 </head>
+
 <body>
-<div class="wrapper">
-<main>
-	<!-- Section for background 1 -->
-	<section class="module parallax parallax-1">
-		<div class="container"></div>
-	</section>
+	<!-- fixed nav bar -->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collpase" data-target="#navbar-collapse-main">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">AweChords</a>
+			</div>
 
-	<!-- Content after background 1 -->
-	<section class="module content">
-		<div class="container">
-			<h2> About Us </h2>
-			<p> AweChords is an a cappella group at UCLA. Originally named “Nhip-Am”, it was formed in 2006 as a choir for the annual Vietnamese Culture Night. Since then, the group has expanded to more diverse audiences throughout Los Angeles and in 2010 regrouped to become the AweChords. </p>
- 
-			<p>This newly formed co-ed a cappella group was founded to expand each of its members' musical horizons and to extend to the public a joy for music. In exploring the versatility of their voices and the creative license that comes with arranging/composing, this group strives to further their knowledge of music and apply that knowledge serve the greater LA community.</p>
+			<div class="collapse navbar-collapse" id="navbar-collapse-main">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#Contact">Contact</a></li>
+				</ul>
+			</div>
 		</div>
-	</section>
+	</nav>
 
-	<!-- Section for background 2 -->
-	<section class="module parallax parallax-2">
-		<div class="container"></div>
-	</section>
-
-	<!-- Content after background 2 -->
-	<section class="module content">
-		<div class="container">
-			<h2> 2014-2015 Members </h2>
-			<p> AweChords is an a cappella group at UCLA. Originally named “Nhip-Am”, it was formed in 2006 as a choir for the annual Vietnamese Culture Night. Since then, the group has expanded to more diverse audiences throughout Los Angeles and in 2010 regrouped to become the AweChords. </p>
-			
-			<p>This newly formed co-ed a cappella group was founded to expand each of its members' musical horizons and to extend to the public a joy for music. In exploring the versatility of their voices and the creative license that comes with arranging/composing, this group strives to further their knowledge of music and apply that knowledge serve the greater LA community.</p>
+	<!-- Home Page -->
+	<div id="home" class="home">
+		<div class="text-vcenter">
+			<h1> Welcome to AweChords website!</h1>
+			<p> Learn more about us below!</p>
+			<a href="#about" class="btn btn-default btn-lg">Continue</a>
 		</div>
-	</section>
-</main>
+	</div>
 
-<footer>
-    <div class="container">
-      <div class="copyright">
-        <small>
-          &copy; 2015, Jason Yang
-        </small>
-      </div>
-    </div>
-</footer>
-</div>
+	<!-- About Us Page -->
+	<div id="about" class="pad-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<!--insert AweChords logo here -->
+				</div>
+				<div class="col-sm-6 text-center">
+					<h2>About Us</h2>
+					<p>AweChords is an a cappella group at UCLA. Originally named “Nhip-Am”, it was formed in 2006 as a choir for the annual Vietnamese Culture Night. Since then, the group has expanded to more diverse audiences throughout Los Angeles and in 2010 regrouped to become the AweChords.</p>
+			 
+					<p>This newly formed co-ed a cappella group was founded to expand each of its members' musical horizons and to extend to the public a joy for music. In exploring the versatility of their voices and the creative license that comes with arranging/composing, this group strives to further their knowledge of music and apply that knowledge serve the greater LA community.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Upcoming Events -->
+	<div id="information" class="pad-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2 class="panel-title">Upcoming Auditions!</h2>
+						</div>
+						<div class="panel-body">
+						Week 0 Thursday - 8-10PM in Moore 1003 <br>
+						Week 0 Friday -  8-10PM in Ackerman 2412 <br>
+						Week 0 Saturday - 8-10PM in Ackerman 2412 <br>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<footer>
+		<hr />
+		<div class="container">
+			<p class="text-right">Copyright &copy; AweChords 2014</p>
+		</div>
+	</footer>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
