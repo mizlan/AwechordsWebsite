@@ -15,6 +15,11 @@ html, body {
 	background-size:cover;
 }
 
+/* About Us Page */
+#logo {
+	padding: 20px 0;
+}
+
 /* Members Page */
 #members {
 	background: url(images/4.jpg) no-repeat center center fixed;
@@ -32,12 +37,12 @@ html, body {
 }
 
 #members img {
-	padding-top:20px;
+	padding: 20px 0;
 }
 
 /* Panel Section */
 .pad-section {
-	padding: 65px 0;
+	padding: 50px 0;
 	margin: 0 auto;
 }
 
