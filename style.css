@@ -3,6 +3,22 @@ html, body {
 	width: 100%;
 }
 
+@media (max-width: 768px) {
+    .navbar .nav-pills {
+      text-align:center;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+}
+
+img {
+	margin: auto auto;
+	text-align: center;
+}
+
 /* Home Page */
 #home {
 	background: url(images/backgrounds/1.jpg) no-repeat center center fixed;
