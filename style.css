@@ -5,7 +5,7 @@ html, body {
 
 @media (max-width: 768px) {
     .navbar .nav-pills {
-      text-align:center;
+		display: inline-block;
     }
 
     .navbar .navbar-collapse {
