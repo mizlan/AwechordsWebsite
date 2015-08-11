@@ -1,8 +1,10 @@
 html, body {
 	height: 100%;
 	width: 100%;
+	font-family: "Century Gothic", sans-serif;
 }
 
+/* CSS for smooth scrolling */
 @media (max-width: 768px) {
     .navbar .nav-pills {
 		display: inline-block;
@@ -10,20 +12,6 @@ html, body {
 
     .navbar .navbar-collapse {
         text-align: center;
-    }
-}
-
-/*TODO: TEST IF THIS WORKS ON MOBILE */
-@media all and (min-width: 601px) {
-    #home {
-        width:200px;
-        height:75px;
-    }
-}
-@media all and (max-width: 600px) {
-    #home {
-        max-width: 100%;
-        background-size: 100%;
     }
 }
 
@@ -56,9 +44,16 @@ img {
 	background-size:cover;
 }
 
-#members .panel {
+.panel {
 	opacity: 0.95;
+}
+
+#members .panel {
 	margin: 200px auto;
+}
+
+#members .panel-body {
+	margin: 20px auto;
 }
 
 #members img {
@@ -82,8 +77,5 @@ img {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size:cover;
-}
-
-#footer {
-	padding: 20px 0;
+	padding: 200px 0;
 }
