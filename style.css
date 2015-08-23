@@ -51,6 +51,10 @@ img {
 	background-size:cover;
 }
 
+#about img {
+	padding: 40px 0;
+}
+
 /* Panel Section */
 .panel {
 	opacity: 0.95;
