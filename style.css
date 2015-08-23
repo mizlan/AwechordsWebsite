@@ -4,6 +4,11 @@ html, body {
 	font-family: "Century Gothic", sans-serif;
 }
 
+.pad-section {
+	padding: 70px 0;
+	margin: 0 auto;
+}
+
 /* CSS for smooth scrolling */
 @media (max-width: 768px) {
     .navbar .nav-pills {
@@ -47,11 +52,6 @@ img {
 }
 
 /* Panel Section */
-.pad-section {
-	padding: 70px 0;
-	margin: 0 auto;
-}
-
 .panel {
 	opacity: 0.95;
 	margin: 200px auto;
