@@ -74,6 +74,10 @@ img {
 	background-size:cover;
 }
 
+#media .panel {
+	margin: 200px 50px 0;
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
