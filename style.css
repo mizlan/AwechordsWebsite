@@ -20,13 +20,6 @@ html, body {
     }
 }
 
-@media (max-width:  979px) {
-.x-content-band.bg-image.parallax,
-.x-content-band.bg-pattern.parallax {
-  background-attachment: fixed !important;
-}
-}
-
 img {
 	margin: auto auto;
 	text-align: center;
