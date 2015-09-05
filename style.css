@@ -82,6 +82,11 @@ img {
 	margin: 200px 50px 0;
 }
 
+#media a, #media a:hover {
+	color: inherit;
+}
+
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
