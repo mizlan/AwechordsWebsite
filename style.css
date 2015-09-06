@@ -8,7 +8,6 @@ a, a:hover {
 	color: inherit;
 }
 
-/* CSS for smooth scrolling */
 @media (max-width: 768px) {
     .navbar .nav-pills {
 		display: inline-block;
@@ -19,15 +18,18 @@ a, a:hover {
     }
 }
 
-img {
-	margin: auto auto;
-	text-align: center;
-	vertical-align:middle;
-	padding: 20px 0;
-}
-
 .pad-section {
 	margin: 70px auto;
+}
+
+/* Panel Section */
+.panel {
+	opacity: 0.95;
+	margin: 200px auto;
+}
+
+.panel-body {
+	margin: 40px auto;
 }
 
 /* Home Page */
@@ -39,7 +41,13 @@ img {
 	position: relative;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size:cover;
+}
+
+/* About Page */
+#about img {
+	margin: 40px 0;
 }
 
 /* Members Page */
@@ -51,21 +59,8 @@ img {
 	position: relative;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size:cover;
-}
-
-#about img {
-	padding: 40px 0;
-}
-
-/* Panel Section */
-.panel {
-	opacity: 0.95;
-	margin: 200px auto;
-}
-
-.panel-body {
-	margin: 40px auto;
 }
 
 /* Media */
