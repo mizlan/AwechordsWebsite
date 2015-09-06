@@ -8,6 +8,10 @@ a, a:hover {
 	color: inherit;
 }
 
+img {
+	margin: auto auto;
+}
+
 @media (max-width: 768px) {
     .navbar .nav-pills {
 		display: inline-block;
