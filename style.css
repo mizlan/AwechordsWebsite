@@ -4,9 +4,8 @@ html, body {
 	font-family: "Century Gothic", sans-serif;
 }
 
-.pad-section {
-	padding: 70px 0;
-	margin: 0 auto;
+a, a:hover {
+	color: inherit;
 }
 
 /* CSS for smooth scrolling */
@@ -25,6 +24,10 @@ img {
 	text-align: center;
 	vertical-align:middle;
 	padding: 20px 0;
+}
+
+.pad-section {
+	margin: 70px auto;
 }
 
 /* Home Page */
@@ -78,19 +81,12 @@ img {
 	background-size:cover;
 }
 
-#media .panel {
-	margin: 200px 50px 0;
-}
-
-#media a, #media a:hover {
-	color: inherit;
-}
-
-
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden;
 }
  
 .video-container iframe,
@@ -104,5 +100,5 @@ img {
 }
 
 footer {
-	padding: 20px 0;
+	margin: 20px;
 }
