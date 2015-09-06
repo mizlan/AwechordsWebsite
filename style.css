@@ -39,6 +39,7 @@ img {
 /* Home Page */
 #home {
 	background: url(images/backgrounds/1.jpg) no-repeat center center fixed;
+	background-position: 0 0%;
 	display: table;
 	height: 85%;
 	width: 100%;
@@ -99,5 +100,5 @@ img {
 }
 
 footer {
-	margin: 20px;
+	margin: 20px 0;
 }
