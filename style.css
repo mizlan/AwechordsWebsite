@@ -39,7 +39,7 @@ img {
 /* Home Page */
 #home {
 	background: url(images/backgrounds/1.jpg) no-repeat center center fixed;
-	background-position: 0 0%;
+	background-position: 0px -100px;
 	display: table;
 	height: 85%;
 	width: 100%;
@@ -58,6 +58,7 @@ img {
 /* Members Page */
 #members {
 	background: url(images/backgrounds/2.jpg) no-repeat center center fixed;
+	background-position: 0px 80px;
 	display: table;
 	height: 100%;
 	width: 100%;
@@ -71,6 +72,7 @@ img {
 /* Media */
 #media{
 	background: url(images/backgrounds/3.jpg) no-repeat center center fixed;
+	background-position: 0px 60px;
 	display: table;
 	height: 100%;
 	width: 100%;
