@@ -204,7 +204,7 @@ table {
 }
 
 /* for future fb linking */
-/*	
+/*
 .fb {
 	  position:absolute;
 	  top: 85%;
@@ -232,6 +232,10 @@ footer{
 
 .social-media-icons i:hover{
 	transform: scale(1.1);
+}
+
+.social-media-icons a:hover{
+	text-decoration: none;
 }
 
 .inner{
