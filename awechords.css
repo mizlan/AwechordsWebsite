@@ -23,10 +23,6 @@ p{
   text-align: center;
 }
 
-.copyright{
-  font-size:10px;
-}
-
 .centerthis{
   text-align:center;
   max-width:60%;
@@ -36,10 +32,6 @@ p{
 }
 
 @media (max-width: 768px) {
-    .navbar .nav-pills {
-		display: inline-block;
-    }
-
     .navbar .navbar-collapse {
         text-align: center;
     }
@@ -50,43 +42,12 @@ p{
 }
 
 #home {
-  background: url(images/banner1.jpg);
+  background: url(images/group.jpg);
 	background-size: cover;
 	max-width:100%;
 	margin-top:65px;
-	height:600px;
+	height:650px;
 	background-position: center;
-}
-
-@media only screen and (min-width: 1160px) {
-    .image-wrap { max-width: 1000px; }
-}
-
-.btn{
-  border-radius: 8px;
-  border: 5px solid #b6c8cd;
-  margin-top:20px;
-  margin-bottom: 20px;
-  padding: 6px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  font-weight: bold;
-  color: #b6c8cd;
-}
-
-.btn:hover{
-  color: #D8D8D8;
-  border: 5px solid #D8D8D8;
-}
-
-table {
-  width: 100%;
-  position: absolute;
-  left: 10%;
-  margin-top: 2%;
-  margin-bottom:2%;
 }
 
 /* TEST GRID */
@@ -172,14 +133,14 @@ table {
     opacity:0.9;
 }
 
-/* should be 4, 3, then 2 */
+/* should be 5, 3, then 2 */
 @media (max-width: 9000px) {
     #rig li {
-        width:16.666666666%;
+        width:20%;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     #rig li {
         width:33.33%;
     }

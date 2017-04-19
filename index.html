@@ -5,163 +5,201 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>AweChords</title>
 	<link rel="shortcut icon" type="image/x-icon" href="images/logo.ico">
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
 
-	<!-- JS -->
-	<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
-	<script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
-	<script>$(document).ready(function (){
-			/*Page scroll*/
-			$.localScroll()
-			});
-	</script>
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+
+    <!-- Google Analytics Tracking -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-67060511-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="awechords.css">
 	<!-- smooth scrolling-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script>
-	$(document).ready(function(){
-	  // Add smooth scrolling to all links
-	  $("a").on('click', function(event) {
-
-	    // Make sure this.hash has a value before overriding default behavior
-	    if (this.hash !== "") {
-	      // Prevent default anchor click behavior
-	      event.preventDefault();
-
-	      // Store hash
-	      var hash = this.hash;
-
-	      // Using jQuery's animate() method to add smooth page scroll
-	      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-	      $('html, body').animate({
-	        scrollTop: $(hash).offset().top
-	      }, 800, function(){
-
-	        // Add hash (#) to URL when done scrolling (default click behavior)
-	        window.location.hash = hash;
-	      });
-	    } // End if
-	  });
-	});
-	</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.js"></script>
-
-	<!-- CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="awechords.css">
-
-	<!-- Google Analytics Tracking -->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-67060511-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
-
-
 </head>
 
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#home"><h4><strong>AWECHORDS</strong></h4></a>
-			</div>
-
-			<div class="collapse navbar-collapse" id="Navbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#about"><h4>our story</h4></a></li>
-					<li><a href="#member"><h4>members</h4></a></li>
-					<li><a href="#join"><h4>join us</h4></a></li>
-					<!-- <li><a href="#media-link"><h4>Media</h4></a></li> -->
-				</ul>
-
-			</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#home"><h4><strong>AWECHORDS</strong></h4></a>
 		</div>
-	</nav>
+
+		<div class="collapse navbar-collapse" id="Navbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#about"><h4>our story</h4></a></li>
+				<li><a href="#member"><h4>members</h4></a></li>
+			</ul>
+
+		</div>
+	</div>
+</nav>
 
 <div id="home"></div>
 
 <div id="about" class="pad-section">
-  <div class="container-fluid">
-      <div class="centerthis">
-        <h1><strong>Hello!</strong></h1>
-        <p></br>We are a co-ed cappella group at UCLA that strives to share our passion for music with the LA community and empower our members' musicality. We started in 2006 as 'Nhip Am', a choir for the annual Vietnamese Culture Night. Since then, we have expanded to more diverse audiences throughout Los Angeles and regrouped in 2010 to become Awechords. </p>
+    <div class="container-fluid">
+        <div class="centerthis">
+            <h1><strong>Hello!</strong></h1>
+            <p><br>We are a co-ed cappella group at UCLA that strives to share our passion for music with the LA community and empower our members' musicality. We started in 2006 as 'Nhip Am', a choir for the annual Vietnamese Culture Night. Since then, we have expanded to more diverse audiences throughout Los Angeles and regrouped in 2010 to become Awechords. </p>
 
-        <p>Our mission: to learn, love, and live music and to bond with each other in the process. We welcome both North &amp; South Campus majors, international and domestic students to be part of our family.</p>
+            <p>Our mission: to learn, love, and live music and to bond with each other in the process. We welcome both North &amp; South Campus majors, international and domestic students to be part of our family.</p>
 
-        <p>Our style: we've come to sing a variety of genres and songs, all the way from Justin Timberlake, Sara Bareilles, Coldplay, and One Republic, to some oldies such as Toto and even broadway shows such as Wicked. </p>
-      </div>
+            <p>Our style: we've come to sing a variety of genres and songs, all the way from Justin Timberlake, Sara Bareilles, Coldplay, and One Republic, to some oldies such as Toto and even broadway shows such as Wicked. </p>
+        </div>
     </div>
-  </div>
 </div>
 
-<!-- for future reference if we want to link awechords members' facebook -->
-<!--
-	<a class="rig-cell" href="https://www.facebook.com/ryan.chen.756412" target="_blank">
-			<img class="rig-img" src="images/members/ryan.jpg" />
-			<img class= "fb" src="images/fb.png"/>
-			<span class="rig-overlay"></span>
-			<span class="rig-text">Ryan Chen</br> Musical Director </br></br><p class="quote">"I like chicken. And steak. But mostly chicken. Oh, and bulgogi. That stuff is awesome."</p></span>
-	</a>
--->
-
-<section id ="member">
+<div id ="member">
   <ul id="rig">
     <li>
         <a class="rig-cell">
-            <img class="rig-img" src="images/members/ryan.jpg" />
-            <span class="rig-overlay"></span>
-            <span class="rig-text">Ryan Chen</br> Musical Director </br></br><p class="quote">"I like chicken. And steak. But mostly chicken. Oh, and bulgogi. That stuff is awesome."</p></span>
+            <img class="rig-img" alt="memberpicture" src="images/members/ryan.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Ryan Chen<br> Musical Director <br>Senior, Baritone<br><br><p class="quote">"People say nothing is impossible, but I do nothing every day."</p></div>
         </a>
     </li>
     <li>
         <a class="rig-cell" >
-            <img class="rig-img" src="images/members/haezy.jpg" />
-            <span class="rig-overlay"></span>
-            <span class="rig-text">Haezy Kim</br> Associate Musical Director</br></br><p class="quote">"I am a nail artist and have 126 nail polishes."</p></span>
+            <img class="rig-img" alt="memberpicture" src="images/members/haezy.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Haezy Kim<br> Associate Musical Director<br>Senior, Soprano<br><br><p class="quote">"Have we met before? My memory is a bit Haezyyyyyy"</p></div>
         </a>
     </li>
     <li>
         <a class="rig-cell">
-            <img class="rig-img" src="images/members/michelle.jpg" />
-            <span class="rig-overlay"></span>
-            <span class="rig-text">Michelle Wen</br> President</br></br><p class="quote">"I can alternate moving my eyebrows really fast."</p></span>
+            <img class="rig-img" alt="memberpicture" src="images/members/michelle.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Michelle Wen<br> President<br>Junior, Alto<br><br><p class="quote">"I can alternate moving my eyebrows really fast."</p></div>
         </a>
     </li>
     <li>
         <a class="rig-cell">
-            <img class="rig-img" src="images/members/emily.jpg" />
-            <span class="rig-overlay"></span>
-            <span class="rig-text">Emily Vo</br>Treasurer, VCN Coordinator</br></br><p class="quote">"I can nap anywhere."</p></span>
+            <img class="rig-img" alt="memberpicture" src="images/members/emilyV.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Emily Vo<br>Treasurer, VCN Coordinator<br>Junior, Alto<br><br><p class="quote">"I can nap anywhere."</p></div>
         </a>
     </li>
     <li>
         <a class="rig-cell">
-            <img class="rig-img" src="images/members/jason.jpg" />
-            <span class="rig-overlay"></span>
-            <span class="rig-text">Jason Yang</br>Advisor</br></br><p class="quote">"I sing soprano."</p></span>
+            <img class="rig-img" alt="memberpicture" src="images/members/jason.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Jason Yang<br>Advisor<br>Senior, Bass<br><br><p class="quote">"I sing soprano."</p></div>
         </a>
     </li>
     <li>
         <a class="rig-cell">
-            <img class="rig-img" src="images/members/kevin.jpg" />
-            <span class="rig-overlay"></span>
-            <span class="rig-text">Kevin Zhang</br></br><p class="quote">"Can someone give me a puppy already?"</p></span>
+            <img class="rig-img" alt="memberpicture" src="images/members/kevinZ.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Kevin Zhang<br>Junior, Baritone<br><br><p class="quote">"Thanks for the dimple mom!"</p></div>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell">
+            <img class="rig-img" alt="memberpicture" src="images/members/jeannie.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Jeannie Huang<br>Sophomore, Alto<br><br><p class="quote">"I'm a professional nap taker."</p></div>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell">
+            <img class="rig-img" alt="memberpicture" src="images/members/bryan.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Ryan Chung<br>Freshman, Tenor<br><br><p class="quote">"I have a sexy af British accent"</p></div>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell">
+            <img class="rig-img" alt="memberpicture" src="images/members/ann.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Ann Chen<br>Sophomore, Soprano<br><br><p class="quote">"I love airports."</p></div>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell">
+            <img class="rig-img" alt="memberpicture" src="images/members/eric.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Eric Li<br>Junior, Baritone<br><br><p class="quote">"I like turtles."</p></div>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell">
+            <img class="rig-img" alt="memberpicture" src="images/members/megan.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Megan Augustin<br>Junior, Alto<br><br><p class="quote">"The smartest 5 year old you'll ever meet."</p></div>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell">
+            <img class="rig-img" alt="memberpicture" src="images/members/kevinJ.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Kevin Jang<br>Freshman, Tenor<br><br><p class="quote">"Don't be sad, because sad backwards is das and das not good."</p></div>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell">
+            <img class="rig-img" alt="memberpicture" src="images/members/emilyT.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Emily Tom<br>Junior, Alto<br><br><p class="quote">"Studies have shown that cereal tastes better at night"</p></div>
+        </a>
+    </li>
+    
+    <li>
+        <a class="rig-cell">
+            <img class="rig-img" alt="memberpicture" src="images/members/brandon.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Brandon Pon<br>Junior, Bass<br><br><p class="quote">"Did someone say....?!?!?"</p></div>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell">
+            <img class="rig-img" alt="memberpicture" src="images/members/vyvy.jpg" />
+            <div class="rig-overlay"></div>
+            <div class="rig-text">Vy-Vy Nguyen<br>Junior, Soprano<br><br><p class="quote">"I like puns a latte."</p></div>
         </a>
     </li>
   </ul>
-</section>
+</div>
 
 <footer>
     <div class="inner">
@@ -184,7 +222,5 @@
     </ul>
   </div>
 </footer>
-
 </body>
-
 </html>
