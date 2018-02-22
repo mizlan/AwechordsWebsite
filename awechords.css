@@ -15,12 +15,21 @@ img {
 
 h1{
   color: #A9A9A9;
+  text-align: center;
 }
 
 p{
   color: #A9A9A9;
   font-size: 16px;
+}
+
+.description{
+  text-align: left;
+}
+
+.auditions{
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .centerthis{
