@@ -1,10 +1,6 @@
 ## About
 This is a website for Awechords A Cappella @ UCLA. 
 
-## Authors 
-2015- Jason Yang 
-2016- Cheechee Lin 
-
 ## Created with
 HTML, CSS, Bootstrap 
 
