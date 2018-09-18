@@ -23,13 +23,17 @@ p{
   font-size: 16px;
 }
 
+section {
+    padding-top: 60px;
+    margin-bottom: 50px;
+}
+
 .description{
   text-align: left;
 }
 
 .auditions{
   text-align: center;
-  margin-bottom: 100px;
 }
 
 .centerthis{
@@ -63,7 +67,7 @@ p{
 #rig {
     max-width:100%;
     margin:0 auto; /*center aligned*/
-    padding:0;
+    padding:10px 0;
     font-size:0; /* Remember to change it back to normal font size if have captions */
     list-style:none;
 }
