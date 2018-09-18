@@ -45,38 +45,38 @@ blueimp.Gallery(
     [
         {
             title: 'Spring Showcase 2018: Haven\'t Met You Yet (Encore)',
-            href: 'http://www.youtube.com/watch?v=6zPxJDZ3l_E',
+            href: 'https://www.youtube.com/watch?v=6zPxJDZ3l_E',
             type: 'text/html',
             youtube: '6zPxJDZ3l_E',
-            poster: 'http://img.youtube.com/vi/6zPxJDZ3l_E/maxresdefault.jpg'
+            poster: 'https://img.youtube.com/vi/6zPxJDZ3l_E/maxresdefault.jpg'
         },
         {
             title: 'Spring Showcase 2018: Fix You',
-            href: 'http://www.youtube.com/watch?v=mqeZPqhXiX8',
+            href: 'https://www.youtube.com/watch?v=mqeZPqhXiX8',
             type: 'text/html',
             youtube: 'mqeZPqhXiX8',
-            poster: 'http://img.youtube.com/vi/mqeZPqhXiX8/maxresdefault.jpg'
+            poster: 'https://img.youtube.com/vi/mqeZPqhXiX8/maxresdefault.jpg'
         },
         {
             title: 'VCN 2017: If I Were A Boy',
-            href: 'http://www.youtube.com/watch?v=gqJV592fr6E',
+            href: 'https://www.youtube.com/watch?v=gqJV592fr6E',
             type: 'text/html',
             youtube: 'gqJV592fr6E',
-            poster: 'http://img.youtube.com/vi/gqJV592fr6E/maxresdefault.jpg'
+            poster: 'https://img.youtube.com/vi/gqJV592fr6E/maxresdefault.jpg'
         },
         {
             title: 'VCN 2016: Hello',
-            href: 'http://www.youtube.com/watch?v=EUo-0jKmvOM',
+            href: 'https://www.youtube.com/watch?v=EUo-0jKmvOM',
             type: 'text/html',
             youtube: 'EUo-0jKmvOM',
-            poster: 'http://img.youtube.com/vi/EUo-0jKmvOM/maxresdefault.jpg'
+            poster: 'https://img.youtube.com/vi/EUo-0jKmvOM/maxresdefault.jpg'
         },
         {
             title: 'Ariana Grande Medley',
-            href: 'http://www.youtube.com/watch?v=JpeZV8XJhR4',
+            href: 'https://www.youtube.com/watch?v=JpeZV8XJhR4',
             type: 'text/html',
             youtube: 'JpeZV8XJhR4',
-            poster: 'http://img.youtube.com/vi/JpeZV8XJhR4/maxresdefault.jpg'
+            poster: 'https://img.youtube.com/vi/JpeZV8XJhR4/maxresdefault.jpg'
         }
     ],
     {
