@@ -55,7 +55,7 @@ section {
 }
 
 #home {
-  background: url(images/group.jpg);
+  background: url(../img/group.jpg);
 	background-size: cover;
 	max-width:100%;
 	margin-top:65px;
