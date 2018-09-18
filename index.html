@@ -1,46 +1,49 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>AweChords A Cappella</title>
-	<link rel="shortcut icon" type="image/x-icon" href="images/logo.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AweChords A Cappella</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.ico">
     <script>
-    $(document).ready(function(){
-      // Add smooth scrolling to all links
-      $("a").on('click', function(event) {
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
 
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-          // Store hash
-          var hash = this.hash;
+                    // Store hash
+                    var hash = this.hash;
 
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
 
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
     </script>
 
-    <!-- Google Analytics Tracking -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125933587-1"></script>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        window.dataLayer = window.dataLayer || [];
 
-      ga('create', 'UA-67060511-1', 'auto');
-      ga('send', 'pageview');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-125933587-1');
     </script>
 
     <!-- CSS -->
@@ -48,31 +51,30 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="awechords.css">
-	<!-- smooth scrolling-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- smooth scrolling-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#home"><h4><strong>AWECHORDS</strong></h4></a>
-		</div>
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#home"><h4><strong>AWECHORDS</strong></h4></a>
+        </div>
 
-		<div class="collapse navbar-collapse" id="Navbar">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#about"><h4>our story</h4></a></li>
-				<li><a href="#member"><h4>members</h4></a></li>
-			</ul>
-
-		</div>
-	</div>
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about"><h4>our story</h4></a></li>
+                <li><a href="#member"><h4>members</h4></a></li>
+            </ul>
+        </div>
+    </div>
 </nav>
 
 <div id="home"></div>
@@ -80,152 +82,143 @@
 <div id="about" class="pad-section">
     <div class="container-fluid">
         <div class="centerthis">
-        <h1><strong>Hey there!</strong></h1>
-        <div class="description">
-            <p>AweChords A Cappella is a co-ed group at UCLA that strives to share our passion for music with the greater Los Angeles community. We were founded in 2006 as a musical component in UCLAʼs annual Vietnamese Culture Night (VCN). In 2010, we began to diversify our sound and regrouped to form AweChords A Cappella. We continue to perform at VCN every year for an audience of over 2,000 people.
-            </p> 
-            <p>Our repertoire ranges from pop to rock to show tunes, and we are constantly working on new pieces to share with our audiences. Above all, AweChords is a home away from home. We aim to create life-long bonds that will last years after we have finished our last performance.</p>
-        </div>
-        <br>
-        <br>
-        <div class="auditions">
-            <h1><strong>Aweditions</strong></h1>
-
-            <!-- Comment out this section when we have auditions -->
-            <p>
-            Be sure to like <a href="https://www.facebook.com/awechords"><span style="text-decoration: underline;">our Facebook page</span></a> to find out when our next aweditions will be held!</p>
-        </div>
-
-        <!-- Uncomment this section when we have auditions -->
-          <!--    <p>Winter 2018 auditions will be held on Sunday January 21 and Monday January 22!  Auditions will only take 10 minutes of your time, and if you are interested in joining, we'd love to see you stop by!  Sign up through <a href="http://www.acaspot.com/audition"><span style="text-decoration: underline;">http://www.acaspot.com/audition</span></a>. <br>
+            <h1><strong>Hey there!</strong></h1>
+            <div class="description">
+                <p>AweChords A Cappella is a co-ed group at UCLA that strives to share our passion for music with the
+                    greater Los Angeles community. We were founded in 2006 as a musical component in UCLAʼs annual
+                    Vietnamese Culture Night (VCN). In 2010, we began to diversify our sound and regrouped to form
+                    AweChords A Cappella. We continue to perform at VCN every year for an audience of over 2,000 people.
+                </p>
+                <p>Our repertoire ranges from pop to rock to show tunes, and we are constantly working on new pieces to
+                    share with our audiences. Above all, AweChords is a home away from home. We aim to create life-long
+                    bonds that will last years after we have finished our last performance.</p>
+            </div>
             <br>
-            Audition Info:<br>
-            Sunday 1/21: 8PM-10PM in Ackerman 3508 <br>
-            Monday 1/22: 8PM-10 PM in MS3915A (Math & Sciences) <br>
             <br>
-            For more information, check out the <a href="https://www.facebook.com/events/745704008958748/"><span style="text-decoration: underline;">Facebook event page</span></a>.  Be sure to like <a href="https://www.facebook.com/awechords"><span style="text-decoration: underline;">our website</span></a> to  keep yourself updated!
-        </p>
-        <br> -->
-        <br>
-        <h1><strong>Members</strong></h1>
+            <div class="auditions">
+                <h1><strong>Aweditions</strong></h1>
+                <!-- Comment out this section when we have auditions -->
+                <!--
+                <p>
+                    Be sure to like <a href="https://www.facebook.com/awechords"><span
+                        style="text-decoration: underline;">our Facebook page</span></a> to find out when our next
+                    aweditions will be held!</p>
+                 -->
+                <!-- Uncomment this section when we have auditions -->
+                <p>Fall 2018 auditions will be held on Sunday September 30, Monday October 1, and Tuesday October 2!
+                    Auditions will only take 10 minutes of your time, and if you are interested in joining, we'd love to
+                    see
+                    you stop by! Sign up through <a href="http://www.acaspot.com/audition"><span
+                            style="text-decoration: underline;">http://www.acaspot.com/audition</span></a>. <br>
+                    <br>
+                    Audition Info:<br>
+                    Sunday 9/30: 8PM-10PM<br>
+                    Monday 10/1: 8PM-10 PM<br>
+                    Tuesday 10/2: 8PM-10:30PM<br>
+
+                    Location TBA
+                    <br>
+                    <!--
+                    For more information, check out the <a href="https://www.facebook.com/events/745704008958748/"><span
+                            style="text-decoration: underline;">Facebook event page</span></a>.--> Be sure to like our
+                    <a href="https://www.facebook.com/awechords"><span
+                            style="text-decoration: underline;">Facebook page</span></a> to keep yourself updated!
+                </p>
+                <br>
+                <br>
+            </div>
+            <h1><strong>Members</strong></h1>
         </div>
     </div>
 </div>
-
-<div id="audtion">
-    <div class="container-fluid">
-    </div>
-</div>
-
-<div id ="member">
-  <ul id="rig">
-    <li>
-        <a class="rig-cell">
-            <img class="rig-img" alt="memberpicture" src="images/members/brandon.jpg" />
-            <div class="rig-overlay"></div>
-            <div class="rig-text">Brandon Pon<br>Musical Director<br>Senior, Bass<br><br><p class="quote">"Did someone say....?!?!?"</p></div>
-        </a>
-    </li>
-    <li>
-        <a class="rig-cell">
-            <img class="rig-img" alt="memberpicture" src="images/members/jeannie.jpg" />
-            <div class="rig-overlay"></div>
-            <div class="rig-text">Jeannie Huang<br> President<br>Junior, Alto<br><br><p class="quote">"I'm a professional nap taker"</p></div>
-        </a>
-    </li>
-    <li>
-        <a class="rig-cell">
-            <img class="rig-img" alt="memberpicture" src="images/members/vyvy.jpg" />
-            <div class="rig-overlay"></div>
-            <div class="rig-text">Vy-Vy Nguyen<br>VCN Coordinator<br>Senior, Soprano<br><br><p class="quote">"Asian girls everywhere: UCLA"</p></div>
-        </a>
-    </li>
-    <li>
-        <a class="rig-cell">
-            <img class="rig-img" alt="memberpicture" src="images/members/kevinZ.jpg" />
-            <div class="rig-overlay"></div>
-            <div class="rig-text">Kevin Zhang<br>Senior, Baritone<br><br><p class="quote">"I can count up to 10 without using my fingers. thanks UCLA!"</p></div>
-        </a>
-    </li>
-    <li>
-        <a class="rig-cell">
-            <img class="rig-img" alt="memberpicture" src="images/members/bryan.jpg" />
-            <div class="rig-overlay"></div>
-            <div class="rig-text">Ryan Chung<br>Sophomore, Tenor<br><br><p class="quote">"A good man is hard to find, and a hard man is good to find"</p></div>
-        </a>
-    </li>
-    <li>
-        <a class="rig-cell">
-            <img class="rig-img" alt="memberpicture" src="images/members/mark.jpg" />
-            <div class="rig-overlay"></div>
-            <div class="rig-text">Mark Abad<br>Senior, Baritone<br><br><p class="quote">"Love react"</p></div>
-        </a>
-    </li>
-    <li>
-        <a class="rig-cell">
-            <img class="rig-img" alt="memberpicture" src="images/members/hanna.jpg" />
-            <div class="rig-overlay"></div>
-            <div class="rig-text">Hanna Deloe<br>Junior, Soprano<br><br><p class="quote">"I have a bookcase full of tea. No books, just tea"</p></div>
-        </a>
-    </li>
-    <li>
-        <a class="rig-cell">
-            <img class="rig-img" alt="memberpicture" src="images/members/kristen.jpg" />
-            <div class="rig-overlay"></div>
-            <div class="rig-text">Kristen Soares<br>Freshman, Soprano<br><br><p class="quote">"I don't know what to say...try asking my alter ego Kreerten"</p></div>
-        </a>
-    </li>
-    <li>
-        <a class="rig-cell">
-            <img class="rig-img" alt="memberpicture" src="images/members/katelynn.jpg" />
-            <div class="rig-overlay"></div>
-            <div class="rig-text">Katelynn Nguyen<br>Freshman, Alto<br><br><p class="quote">"Aww, you're my fav!"</p></div>
-        </a>
-    </li>
-    <li>
-        <a class="rig-cell">
-            <img class="rig-img" alt="memberpicture" src="images/members/jesus.jpg" />
-            <div class="rig-overlay"></div>
-            <div class="rig-text">Jesus Campanero<br>Sophomore, Tenor<br><br><p class="quote">"How many Jesus's you know that are Asian?"</p></div>
-        </a>
-    </li>
-    <li>
-        <a class="rig-cell">
-            <img class="rig-img" alt="memberpicture" src="images/members/allan.jpg" />
-            <div class="rig-overlay"></div>
-            <div class="rig-text">Allan Chen<br>Junior, Bass<br><br><p class="quote">"They put me on Bass but I can do everything"</p></div>
-        </a>
-    </li>
-  </ul>
+<div id="member">
+    <ul id="rig">
+        <li>
+            <a class="rig-cell">
+                <img class="rig-img" alt="memberpicture" src="images/members/bryan.jpg"/>
+                <div class="rig-overlay"></div>
+                <div class="rig-text">Ryan Chung<br>Co-Musical Director<br>Junior, Tenor<br><br>
+                    <p class="quote">"A good man is hard to find, and a hard man is good to find"</p></div>
+            </a>
+        </li>
+        <li>
+            <a class="rig-cell">
+                <img class="rig-img" alt="memberpicture" src="images/members/hanna.jpg"/>
+                <div class="rig-overlay"></div>
+                <div class="rig-text">Hanna Deloe<br>Co-Musical Director<br>Senior, Soprano<br><br>
+                    <p class="quote">"I have a bookcase full of tea. No books, just tea"</p></div>
+            </a>
+        </li>
+        <li>
+            <a class="rig-cell">
+                <img class="rig-img" alt="memberpicture" src="images/members/kristen.jpg"/>
+                <div class="rig-overlay"></div>
+                <div class="rig-text">Kristen Soares<br>President<br>Sophomore, Soprano<br><br>
+                    <p class="quote">"I don't know what to say...try asking my alter ego Kreerten"</p></div>
+            </a>
+        </li>
+        <li>
+            <a class="rig-cell">
+                <img class="rig-img" alt="memberpicture" src="images/members/jeannie.jpg"/>
+                <div class="rig-overlay"></div>
+                <div class="rig-text">Jeannie Huang<br> Treasurer<br>Senior, Alto<br><br>
+                    <p class="quote">"I'm a professional nap taker"</p></div>
+            </a>
+        </li>
+        <li>
+            <a class="rig-cell">
+                <img class="rig-img" alt="memberpicture" src="images/members/katelynn.jpg"/>
+                <div class="rig-overlay"></div>
+                <div class="rig-text">Katelynn Nguyen<br>VCN Coordinator<br>Sophomore, Alto<br><br>
+                    <p class="quote">"Aww, you're my fav!"</p></div>
+            </a>
+        </li>
+        <li>
+            <a class="rig-cell">
+                <img class="rig-img" alt="memberpicture" src="images/members/jesus.jpg"/>
+                <div class="rig-overlay"></div>
+                <div class="rig-text">Jesus Campanero<br>VCN Coordinator<br>Junior, Tenor<br><br>
+                    <p class="quote">"How many Jesus's you know that are Asian?"</p></div>
+            </a>
+        </li>
+        <li>
+            <a class="rig-cell">
+                <img class="rig-img" alt="memberpicture" src="images/members/allan.jpg"/>
+                <div class="rig-overlay"></div>
+                <div class="rig-text">Allan Chen<br>Webmaster<br>Senior, Bass<br><br>
+                    <p class="quote">"They put me on Bass but I can do everything"</p></div>
+            </a>
+        </li>
+    </ul>
 </div>
 
 <footer>
     <div class="inner">
-    <ul class="social-media-icons">
-      <li>
-        <a href="https://www.facebook.com/awechords" target="_blank">
-          <i class="fa fa-facebook-square fa-3x"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/user/awechords" target="_blank">
-          <i class="fa fa-youtube-play fa-3x"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://soundcloud.com/awechords" target="_blank">
-          <i class="fa fa-soundcloud fa-3x"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/awechords/" target="_blank">
-          <i class="fa fa-instagram fa-3x"></i>
-        </a>
-      </li>
+        <ul class="social-media-icons">
+            <li>
+                <a href="https://www.facebook.com/awechords" target="_blank">
+                    <i class="fa fa-facebook-square fa-3x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/user/awechords" target="_blank">
+                    <i class="fa fa-youtube-play fa-3x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://soundcloud.com/awechords" target="_blank">
+                    <i class="fa fa-soundcloud fa-3x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/awechords/" target="_blank">
+                    <i class="fa fa-instagram fa-3x"></i>
+                </a>
+            </li>
 
-      
-    </ul>
-  </div>
+
+        </ul>
+    </div>
 </footer>
 </body>
 </html>
