@@ -50,12 +50,37 @@ blueimp.Gallery(
             youtube: '6zPxJDZ3l_E',
             poster: 'https://img.youtube.com/vi/6zPxJDZ3l_E/maxresdefault.jpg'
         },
+        "img/group_pics/g1.jpg",
         {
             title: 'Spring Showcase 2018: Fix You',
             href: 'https://www.youtube.com/watch?v=mqeZPqhXiX8',
             type: 'text/html',
             youtube: 'mqeZPqhXiX8',
             poster: 'https://img.youtube.com/vi/mqeZPqhXiX8/maxresdefault.jpg'
+        },
+        "img/group_pics/g2.jpg",
+        {
+            title: 'VCN 2018: Haven\'t Met You Yet',
+            href: 'https://www.youtube.com/watch?v=nTCaMGTHD0I',
+            type: 'text/html',
+            youtube: 'nTCaMGTHD0I',
+            poster: 'https://img.youtube.com/vi/nTCaMGTHD0I/maxresdefault.jpg'
+        },
+        "img/group_pics/g3.jpg",
+        {
+            title: 'VCN 2018: Unsteady',
+            href: 'https://www.youtube.com/watch?v=kpkHumFbk_o',
+            type: 'text/html',
+            youtube: 'kpkHumFbk_o',
+            poster: 'https://img.youtube.com/vi/kpkHumFbk_o/maxresdefault.jpg'
+        },
+        "img/group_pics/g4.jpg",
+        {
+            title: 'VCN 2018: Blackbird/I Will/Yesterday Mash-UP',
+            href: 'https://www.youtube.com/watch?v=Ogju8H7okHw',
+            type: 'text/html',
+            youtube: 'Ogju8H7okHw',
+            poster: 'https://img.youtube.com/vi/Ogju8H7okHw/maxresdefault.jpg'
         },
         {
             title: 'VCN 2017: If I Were A Boy',
