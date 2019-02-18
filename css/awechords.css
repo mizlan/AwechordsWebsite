@@ -54,14 +54,15 @@ section {
 	margin: 30px auto;
 }
 
-#home {
+/* uncomment when adding new group pic */
+/*#home {
   background: url(../img/group.jpg);
 	background-size: cover;
 	max-width:100%;
 	margin-top:65px;
 	height:650px;
 	background-position: center;
-}
+}*/
 
 /* TEST GRID */
 #rig {
