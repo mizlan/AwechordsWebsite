@@ -50,7 +50,7 @@ blueimp.Gallery(
             youtube: '6zPxJDZ3l_E',
             poster: 'https://img.youtube.com/vi/6zPxJDZ3l_E/maxresdefault.jpg'
         },
-        "img/group_pics/g1.jpg",
+        "img/group_pics/g5.jpg",
         {
             title: 'Spring Showcase 2018: Fix You',
             href: 'https://www.youtube.com/watch?v=mqeZPqhXiX8',
@@ -58,7 +58,7 @@ blueimp.Gallery(
             youtube: 'mqeZPqhXiX8',
             poster: 'https://img.youtube.com/vi/mqeZPqhXiX8/maxresdefault.jpg'
         },
-        "img/group_pics/g2.jpg",
+        "img/group_pics/g6.jpg",
         {
             title: 'VCN 2018: Haven\'t Met You Yet',
             href: 'https://www.youtube.com/watch?v=nTCaMGTHD0I',
@@ -66,7 +66,7 @@ blueimp.Gallery(
             youtube: 'nTCaMGTHD0I',
             poster: 'https://img.youtube.com/vi/nTCaMGTHD0I/maxresdefault.jpg'
         },
-        "img/group_pics/g3.jpg",
+        "img/group_pics/g7.jpg",
         {
             title: 'VCN 2018: Unsteady',
             href: 'https://www.youtube.com/watch?v=kpkHumFbk_o',
@@ -74,7 +74,7 @@ blueimp.Gallery(
             youtube: 'kpkHumFbk_o',
             poster: 'https://img.youtube.com/vi/kpkHumFbk_o/maxresdefault.jpg'
         },
-        "img/group_pics/g4.jpg",
+        "img/group_pics/g8.jpg",
         {
             title: 'VCN 2018: Blackbird/I Will/Yesterday Mash-UP',
             href: 'https://www.youtube.com/watch?v=Ogju8H7okHw',
