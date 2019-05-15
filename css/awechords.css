@@ -14,12 +14,18 @@ img {
 }
 
 h1{
-  color: #A9A9A9;
+  /*color: #A9A9A9;*/
+  color: #000000;
+  text-align: center;
+}
+
+h4{
+  color: #ffffff;
   text-align: center;
 }
 
 p{
-  color: #A9A9A9;
+  color: #000000;
   font-size: 16px;
 }
 
@@ -38,15 +44,16 @@ section {
 
 .centerthis{
   text-align:center;
-  max-width:60%;
+  max-width:80%;
   position:relative;
   top: 50%;
-  left: 20%;
+  left: 10%;
 }
 
 @media (max-width: 768px) {
     .navbar .navbar-collapse {
         text-align: center;
+        border: #000000;
     }
 }
 
@@ -55,14 +62,18 @@ section {
 }
 
 /* uncomment when adding new group pic */
-/*#home {
-  background: url(../img/group.jpg);
+#home {
+  background: url(../img/group_pics/g9.jpg);
+  /*border-top: 30px solid #ffffff;*/
+  /*border-bottom: 30px solid #ffffff;*/
+  /*#021a40*/
 	background-size: cover;
 	max-width:100%;
-	margin-top:65px;
+	margin-top:70px;
 	height:650px;
+  /*height: 100%;*/
 	background-position: center;
-}*/
+}
 
 /* TEST GRID */
 #rig {
@@ -118,6 +129,8 @@ section {
     transform:scale(1);
     transition:all 1s;
 }
+
+
 
 #rig li:hover .rig-img {
     transform:scale(1.05);
@@ -212,3 +225,49 @@ footer{
 	color: white;
 	text-transform: none;
 }
+
+.content {
+    width: 100%;
+    border: 4px solid red;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.left {
+    
+}
+
+.right {
+  margin-left: 15px;
+  height: 200px;
+  width: 200px;
+  float: right;
+}
+
+.content img {
+    margin-right: 15px;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.contentA {
+  width: 100%;
+    border: 4px solid red;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.contentA img {
+    margin-right: 15px;
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+
+
