@@ -34,6 +34,11 @@ section {
     margin-bottom: 50px;
 }
 
+.bigfont{
+  font-size:30px;
+  font-weight:bold;
+}
+
 .description{
   text-align: left;
 }
