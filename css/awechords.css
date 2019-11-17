@@ -15,7 +15,7 @@ img {
 
 h1{
   /*color: #A9A9A9;*/
-  color: #000000;
+  color: #F1BFDC;
   text-align: center;
 }
 
@@ -34,6 +34,10 @@ section {
     margin-bottom: 50px;
 }
 
+.h1-pink {
+  color: #F1BFDC;
+  text-align: center;
+}
 .bigfont{
   font-size:30px;
   font-weight:bold;
@@ -78,14 +82,14 @@ section {
 /* uncomment when adding new group pic */
 #home {
   /*background: url(../img/group_pics/g9.jpg);*/
-  background: url(../img/group_pics/g9.jpg);
+  background: url(../img/group_pics/g10.jpg);
   /*border-top: 30px solid #ffffff;*/
   /*border-bottom: 30px solid #ffffff;*/
   /*#021a40*/
 	background-size: cover;
 	max-width:100%;
 	margin-top:70px;
-	height:650px;
+	height:800px;
   /*height: 100%;*/
 	
   background-position: center;
