@@ -40,6 +40,30 @@ section {
     margin-bottom: 50px;
 }
 
+a:link {
+  color: #F1BFDC;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blueviolet;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: skyblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: orangered;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .h1-orange {
   color: #FF5733;
   text-align: center;
