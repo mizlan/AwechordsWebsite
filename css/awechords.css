@@ -112,18 +112,12 @@ a:active {
 
 /* uncomment when adding new group pic */
 #home {
-  /*background: url(../img/group_pics/g9.jpg);*/
-  background: url(../img/group_pics/g10.jpg);
-  /*border-top: 30px solid #ffffff;*/
-  /*border-bottom: 30px solid #ffffff;*/
-  /*#021a40*/
-	background-size: cover;
-	max-width:100%;
-	margin-top:70px;
-	height:800px;
-  /*height: 100%;*/
-	
-  background-position: center;
+  background: url(../img/group_pics/g21-22.jpg);
+    background-size: cover;
+    max-width:100%;
+    margin-top:70px;
+    height: 100%;
+    background-position: center;
 
   
 }
