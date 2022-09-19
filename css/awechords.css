@@ -33,11 +33,12 @@ h4{
 p{
   color: #000000;
   font-size: 16px;
+  margin-top: 10px;
 }
 
 section {
     padding-top: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 a:link {
@@ -80,6 +81,7 @@ a:active {
 
 .auditions{
   text-align:center;
+  margin-bottom: 60px;
 }
 
 .centerthis{
@@ -107,6 +109,10 @@ a:active {
 
 .pad-section {
 	margin: 30px auto;
+}
+
+.text-section-header {
+  text-align: left;
 }
 
 
