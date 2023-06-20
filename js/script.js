@@ -44,6 +44,21 @@ gtag('config', 'UA-125933587-1');
 blueimp.Gallery(
     [
         {
+            title: 'VCN 2023: Jigsaw',
+            href: 'https://youtu.be/Y3LWWTATdTo?t=4477',
+            type: 'text/html',
+            youtube: 'Y3LWWTATdTo',
+            poster: 'https://img.youtube.com/vi/Y3LWWTATdTo/maxresdefault.jpg'
+        },
+        "img/group_pics/g22-23.jpg",
+        {
+            title: 'VCN 2020: Streetcar',
+            href: 'https://www.youtube.com/watch?v=tP4wCNIqD6A',
+            type: 'text/html',
+            youtube: 'tP4wCNIqD6A',
+            poster: 'https://img.youtube.com/vi/tP4wCNIqD6A/maxresdefault.jpg'
+        },
+        {
             title: 'Spring Showcase 2018: Haven\'t Met You Yet (Encore)',
             href: 'https://www.youtube.com/watch?v=6zPxJDZ3l_E',
             type: 'text/html',
