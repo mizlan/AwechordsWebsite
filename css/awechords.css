@@ -2,7 +2,8 @@ html, body {
 	height: 100%;
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
-  color: #A9A9A9;
+  color: #A0694b;
+  background-color: #A0694b;
 }
 
 a, a:hover {
@@ -24,14 +25,14 @@ h1{
 }
 
 h4{
-  color: #ffffff;
+  color: #A0694b;
   text-align: center;
 }
 
 
 
 p{
-  color: #000000;
+  color: #ffffff;
   font-size: 16px;
   margin-top: 10px;
 }
@@ -113,12 +114,13 @@ a:active {
 
 .text-section-header {
   text-align: left;
+  color: "#ffffff";
 }
 
 
 /* uncomment when adding new group pic */
 #home {
-  background: url(../img/group_pics/g22-23.JPG);
+  background: url(../img/group_pics/g23-24.JPG);
     background-size: cover;
     max-width:100%;
     margin-top:70px;
@@ -126,6 +128,11 @@ a:active {
     background-position: center;
 
   
+}
+
+#container-fluid {
+  background-color: #A0694b;
+  color: #A0694b;
 }
 
 .picEx {
@@ -187,7 +194,7 @@ a:active {
     width:100%;
     text-align:center;
     text-transform:capitalize;
-    font-size:18px;
+    font-size:20px;
     font-weight:bold;
     top:40%;
     color:white;
@@ -231,7 +238,7 @@ a:active {
     bottom: 0;
     right: 0;
     margin: auto;
-    background: #A9A9A9 no-repeat center 30%;
+    background: #A95c3c no-repeat center 60%;
     background-size:50px 50px;
     opacity:0;
     filter:alpha(opacity=0);/*For IE6 - IE8*/
@@ -307,9 +314,10 @@ footer{
 }
 
 .quote{
-	font-size:14px;
+	font-size:18px;
 	color: white;
 	text-transform: none;
+  font-weight: 700;
 }
 
 .content {

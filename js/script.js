@@ -50,6 +50,14 @@ blueimp.Gallery(
             youtube: 'Y3LWWTATdTo',
             poster: 'https://img.youtube.com/vi/Y3LWWTATdTo/maxresdefault.jpg'
         },
+        "img/group_pics/g23-24.jpg",
+        {
+            title: 'VCN 2020: Streetcar',
+            href: 'https://www.youtube.com/watch?v=tP4wCNIqD6A',
+            type: 'text/html',
+            youtube: 'tP4wCNIqD6A',
+            poster: 'https://img.youtube.com/vi/tP4wCNIqD6A/maxresdefault.jpg'
+        },
         "img/group_pics/g22-23.jpg",
         {
             title: 'VCN 2020: Streetcar',
