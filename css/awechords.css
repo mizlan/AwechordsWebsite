@@ -23,13 +23,16 @@ h1{
   color: #F1BFDC;
   text-align: center;
 }
+h3{
+  /*color: #A9A9A9;*/
+  color: #F1BFDC;
+  text-align: center;
+}
 
 h4{
   color: #A0694b;
   text-align: center;
 }
-
-
 
 p{
   color: #ffffff;
@@ -175,6 +178,7 @@ a:active {
     padding:10px 0;
     font-size:0; /* Remember to change it back to normal font size if have captions */
     list-style:none;
+    text-align: center;
 }
 #rig li {
     display: inline-block;
@@ -187,21 +191,20 @@ a:active {
 }
 .rig-text {
     display:block;
-    padding:0 30px;
+    padding:0 20px;
     box-sizing:border-box;
     position:absolute;
-    left:0;
     width:100%;
     text-align:center;
     text-transform:capitalize;
-    font-size:20px;
-    font-weight:bold;
+    font-size:22px;
+    font-weight:900;
     top:40%;
     color:white;
     opacity:0;
     filter:alpha(opacity=0);/*For older IE*/
-    transform:translateY(-20px);
-    transition:all .3s;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
 }
 
 /* The wrapper for each item */
@@ -245,12 +248,14 @@ a:active {
     transition:all 0.6s;
 }
 #rig li:hover .rig-overlay {
-    opacity:0.8;
+    opacity:0.9;
 }
 
 #rig li:hover .rig-text {
-    transform:translateY(0px);
+    /*transform:translateY(0px);*/
     opacity:0.9;
+    margin-top: 10%;
+    transition: all 0.3s ease;
 }
 
 /* should be 5, 3, then 2 */
@@ -264,11 +269,23 @@ a:active {
     #rig li {
         width:33.33%;
     }
+    .rig-text {
+      font-size: 20px;
+    }
+    .quote {
+      font-size: 16px;
+    }
 }
 
 @media (max-width: 550px) {
     #rig li {
         width:50%;
+    }
+    .rig-text {
+      font-size: 18px;
+    }
+    .quote {
+      font-size: 15px;
     }
 }
 
@@ -317,7 +334,7 @@ footer{
 	font-size:18px;
 	color: white;
 	text-transform: none;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .content {
@@ -365,3 +382,33 @@ footer{
 
 
 
+.navbar-brand {
+  display: inline-block;
+  /* Add additional styles as needed */
+}
+
+.navbar-brand ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-flex; /* To make the list items align horizontally */
+  align-items: center; /* To vertically center the items */
+}
+
+.navbar-brand li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#repertoire {
+  align-items: center;
+  margin: 0 0; /* Center align the ul */
+  padding: 0;
+  list-style: none;
+}
+#repertoire li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
